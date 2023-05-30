@@ -1,17 +1,8 @@
-# Welcome to MkDocs
+# Welcome to Lost neuroscientist
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Lost-neuro-scientist provides resources for scientists entering the neuroimaging community: neurosoftware information, sample codes, links to other tutorials... .
 
-## Commands
+This project is under active development.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Lost neuroscientist has its documentation hosted on **ReadTheDocs**.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.

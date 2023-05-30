@@ -1,1 +1,28 @@
-site_name: My Docs
+site_name: Lost neuroscientist
+
+nav:
+  - Home: index.md
+  - Data Quality Assurances:
+    - data_qc.md
+  - DWI workflow:
+    - 'Overview': 'overview1.md'
+    - 'Estimating data quality': 'eddyqc.md'
+    - 'Preprocessing (MRtrix)': 'preproc_mrtrix.md'
+    - 'Tractography (MRtrix)': 'mrtrix.md'
+    - 'Bundle segmentation (TractSeg)': 'tractseg.md'
+    - 'Visualization of Bundles': 'bundlevis.md'
+  - Visualization: 
+    - visualization.md
+
+
+theme: readthedocs
+
+markdown_extensions:
+  - codehilite:
+      guess_lang: false
+      use_pygments: true
+  - attr_list
+  - md_in_html
+  
+plugins:
+  - glightbox
