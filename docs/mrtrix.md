@@ -82,7 +82,7 @@ tckedit tracks_10M.tck mytract.tck \
 -minlength 25 / # minimum length of any streamline in mm (also maxlength)
 ```
 
-## Generation of thesor-derived metrics (FA, MD, RD, AD)
+## Generation of tensor-derived metrics (FA, MD, RD, AD)
 ```bash
 echo "-- Step (1) Create a tensor image from DWI data to later compute tensor-direved parameters such as FA"
     dwi2tensor dwi_den_preproc_unbiased.mif \ # Input DWI image 
