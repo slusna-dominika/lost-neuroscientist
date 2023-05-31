@@ -10,7 +10,7 @@ nav:
     - 'Preprocessing (MRtrix)': 'preproc_mrtrix.md'
     - 'Tractography (MRtrix)': 'mrtrix.md'
     - 'Bundle segmentation (TractSeg)': 'tractseg.md'
-    - 'Visualization of Bundles': 'bundlevis.md'
+    - 'Visualization of bundles': 'bundlevis.md'
   - Visualization: 
     - visualization.md
 
