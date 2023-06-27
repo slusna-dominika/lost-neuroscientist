@@ -1,4 +1,3 @@
 jinja2==3.0.0
 pygments
-Markdown<3.2
-md_in_html
+Markdown<3.4.3
