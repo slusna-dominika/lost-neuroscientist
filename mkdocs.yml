@@ -26,6 +26,7 @@ theme_config:
 markdown_extensions:
   - codehilite:
       linenums: true
+      pygments_style: gruvbox-light
   - attr_list
   - md_in_html
   - pymdownx.highlight:
@@ -40,8 +41,6 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 
-extra_css:
-  - css/vs.css
 
 plugins:
   - mkdocs-jupyter
