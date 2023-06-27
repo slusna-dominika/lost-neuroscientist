@@ -24,7 +24,8 @@ theme_config:
 
 
 markdown_extensions:
-  - codehilite
+  - codehilite:
+      linenums: true
   - attr_list
   - md_in_html
   - pymdownx.highlight:
@@ -34,6 +35,10 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 plugins:
   - mkdocs-jupyter
