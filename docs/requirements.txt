@@ -1,6 +1,6 @@
 mkdocs==1.4.3 
 jinja2==3.0.0
-Pygments==2.15.1
+pygments
 Markdown<3.4
 mkdocs-jupyter
 mknotebooks
