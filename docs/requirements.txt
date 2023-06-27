@@ -5,3 +5,4 @@ Markdown<3.4
 mkdocs-jupyter
 mknotebooks
 termynal
+pymdown-extensions
