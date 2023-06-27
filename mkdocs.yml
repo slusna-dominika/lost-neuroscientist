@@ -18,9 +18,7 @@ nav:
 theme: readthedocs
 
 markdown_extensions:
-  - codehilite:
-      guess_lang: false
-      use_pygments: true
+  - codehilite
   - attr_list
   - md_in_html
 
