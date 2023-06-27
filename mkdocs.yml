@@ -18,6 +18,8 @@ nav:
 theme: readthedocs
   features:
     - content.code.copy
+    - content.code.select
+
 
 markdown_extensions:
   - codehilite
