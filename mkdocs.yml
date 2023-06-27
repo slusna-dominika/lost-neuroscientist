@@ -24,6 +24,3 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
-plugins:
-  - glightbox:
-      version: "0.1.0"
